@@ -1,0 +1,23 @@
+# FONT
+# font-family = "Ttyp0 (OTB)"
+# font-family-italic = "Ttyp0 (OTB)"
+# font-family-bold-italic = "Ttyp0 (OTB)"
+font-family = "CaskaydiaCove Nerd Font Mono"
+font-family-italic = "CaskaydiaCove Nerd Font Mono"
+font-family-italic = "CaskaydiaCove Nerd Font Mono"
+font-size = 13
+font-feature = -calt
+font-feature = -liga
+font-feature = -dlig
+
+# THEME & STYLE
+theme = GruvboxDarkHard
+background-opacity = 0.98
+cursor-invert-fg-bg = true
+cursor-style = block
+shell-integration = none
+window-padding-x = 8
+window-padding-y = 8
+
+# BEHAVIOR
+confirm-close-surface = false
