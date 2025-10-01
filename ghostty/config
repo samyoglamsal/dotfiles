@@ -5,13 +5,12 @@
 font-family = "CaskaydiaCove Nerd Font Mono"
 font-family-italic = "CaskaydiaCove Nerd Font Mono"
 font-family-italic = "CaskaydiaCove Nerd Font Mono"
-font-size = 13
+font-size = 12
 font-feature = -calt
 font-feature = -liga
 font-feature = -dlig
 
 # THEME & STYLE
-theme = GruvboxDarkHard
 background-opacity = 0.98
 cursor-invert-fg-bg = true
 cursor-style = block

@@ -1,8 +1,8 @@
 # Interactive shell env vars
 export EDITOR=nvim
 
-FD_OPTIONS="--follow --exclude .git --exclude node_modules"
-export FZF_DEFAULT_OPTS='--tmux center --preview "bat --color=always {}"'
+FD_OPTIONS="--follow --exclude .git --exclude node_modules --no-hidden"
+export FZF_DEFAULT_OPTS=''
 export FZF_DEFAULT_COMMAND="git ls-files --cached --others --exclude-standard | fd --type f --type l $FD_OPTIONS"
 export FZF_CTRL_T_COMMAND="fd $FD_OPTIONS"
 export FZF_ALT_C_COMAMND="fd --type d $FD_OPTIONS"
