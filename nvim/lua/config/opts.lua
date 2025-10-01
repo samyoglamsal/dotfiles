@@ -18,11 +18,6 @@ vim.api.nvim_set_hl(0, 'Pmenu', { bg = 'none' })
 vim.opt.splitbelow = true
 vim.opt.splitright = true
 
-vim.diagnostic.config({
-  virtual_text = { current_line = true },
-  -- virtual_lines = true,
-})
-
 vim.lsp.enable({
 	"gopls",
 	"yaml_language_server",
