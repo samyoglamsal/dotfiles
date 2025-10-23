@@ -12,3 +12,5 @@ export GOBIN="$HOME/.local/go/bin"
 export PATH="$PATH:/usr/local/go/bin"
 export PATH="$PATH:$GOBIN"
 export PATH="$PATH:$HOME/.local/bin"
+
+export EDITOR=nvim

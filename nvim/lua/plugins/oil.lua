@@ -5,7 +5,11 @@ return {
   opts = {
     view_options = {
 	  show_hidden = true,
-    }
+    },
+    keymaps = {
+      ["<C-l>"] = false,
+      ["<C-h>"] = false,
+    },
   },
   keys = {
     { "-", "<CMD>Oil<CR>", { desc = "Open current directory in Oil.nvim" } }

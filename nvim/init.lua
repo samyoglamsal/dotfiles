@@ -6,4 +6,4 @@ require("config.opts")
 require("config.keys")
 require("config.diagnostics")
 
-vim.cmd.colorscheme("darkvoid")
+vim.cmd.colorscheme("vesper")

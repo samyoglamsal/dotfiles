@@ -4,7 +4,7 @@ vim.keymap.set("n", "n", "nzz", { desc = "Keep cursor centered when searching ne
 vim.keymap.set("n", "N", "Nzz", { desc = "Keep cursor centered when searching prev" })
 
 -- LSP
-vim.keymap.set("v", "<leader>fb", vim.lsp.buf.format, { remap = false })
+vim.keymap.set("n", "<leader>fb", vim.lsp.buf.format, { remap = false })
 -- vim.keymap.set("n", "<leader>k", function ()
 --   vim.diagnostic.config({ virtual_lines = { current_line = true}, virtual_text = false })
 
